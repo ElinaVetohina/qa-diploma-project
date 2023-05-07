@@ -15,7 +15,7 @@
 * Неуспешных 50 %
 ## Отчет о проведенных автотестах.
 
-### [отчет Allure](https://dyploma-testing-netology.vercel.app/)
+### [отчет Allure](https://elina-vetohina-allure-report.vercel.app/)
 
 ## Общие рекомендации
 По обнаруженным отказам созданы [issues](https://github.com/ElinaVetohina/qa-diploma-project/issues).
