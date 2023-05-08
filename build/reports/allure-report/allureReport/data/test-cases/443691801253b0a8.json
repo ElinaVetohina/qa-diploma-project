@@ -1,0 +1,309 @@
+{
+  "uid" : "443691801253b0a8",
+  "name" : "Оплата в кредит разрешенной картой, отображается сообщение об подтверждении банком",
+  "fullName" : "ru.netology.elinavetohina.test.CreditPaymentTest.ShouldSuccessMessageIfPaymentByCreditApprovedCard",
+  "historyId" : "7f4235f28ae0d42f79e0cb18ace0613e",
+  "time" : {
+    "start" : 1683511640009,
+    "stop" : 1683511643092,
+    "duration" : 3083
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1683511634747,
+      "stop" : 1683511634748,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1683511640009,
+        "stop" : 1683511640044,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //h2[contains(class,heading)]\") should be(visible)",
+      "time" : {
+        "start" : 1683511640044,
+        "stop" : 1683511640061,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Купить в кредит']\") click()",
+      "time" : {
+        "start" : 1683511640061,
+        "stop" : 1683511640110,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //h3[text()='Кредит по данным карты']\") should be(visible)",
+      "time" : {
+        "start" : 1683511640110,
+        "stop" : 1683511640127,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Номер карты']/..//input\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1683511640128,
+        "stop" : 1683511640260,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Месяц']/..//input\") set value(02)",
+      "time" : {
+        "start" : 1683511640261,
+        "stop" : 1683511640350,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/..//input\") set value(24)",
+      "time" : {
+        "start" : 1683511640350,
+        "stop" : 1683511640436,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Владелец']/..//input\") set value(Grace Walsh)",
+      "time" : {
+        "start" : 1683511640436,
+        "stop" : 1683511640553,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='CVC/CVV']/..//input\") set value(704)",
+      "time" : {
+        "start" : 1683511640553,
+        "stop" : 1683511640638,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Продолжить']\") click()",
+      "time" : {
+        "start" : 1683511640638,
+        "stop" : 1683511640684,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".notification_status_ok\") should be([text \"Операция одобрена Банком.\", 11 s.])",
+      "time" : {
+        "start" : 1683511640684,
+        "stop" : 1683511642737,
+        "duration" : 2053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".notification button\") click()",
+      "time" : {
+        "start" : 1683511642737,
+        "stop" : 1683511643066,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".notification_status_error\") should be(not visible)",
+      "time" : {
+        "start" : 1683511643066,
+        "stop" : 1683511643091,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1683511655005,
+      "stop" : 1683511655038,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.elinavetohina.test.CreditPaymentTest]/[method:ShouldSuccessMessageIfPaymentByCreditApprovedCard()]"
+  }, {
+    "name" : "epic",
+    "value" : "Оплата в кредит"
+  }, {
+    "name" : "story",
+    "value" : "Всплывающее окно со статеумом операции"
+  }, {
+    "name" : "feature",
+    "value" : "Оплата разрешенной картой"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KP649TH"
+  }, {
+    "name" : "thread",
+    "value" : "33332@DESKTOP-KP649TH.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.elinavetohina.test.CreditPaymentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.elinavetohina.test.CreditPaymentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldSuccessMessageIfPaymentByCreditApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.elinavetohina.test.CreditPaymentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "443691801253b0a8.json",
+  "parameterValues" : [ ]
+}

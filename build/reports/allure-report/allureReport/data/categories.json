@@ -1,0 +1,303 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511629390.0.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511629390.0.html\r\nTimeout: 11 s.",
+      "children" : [ {
+        "name" : "Покупка запрещенной картой. Отображается сообщение об отказе банком",
+        "uid" : "d3efd47700df6710",
+        "parentUid" : "c20356d304d0701ce4b5859cd36d19f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511617601,
+          "stop" : 1683511629603,
+          "duration" : 12002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c20356d304d0701ce4b5859cd36d19f8"
+    }, {
+      "name" : "expected: <Марракеш> but was: <Марракэш>",
+      "children" : [ {
+        "name" : "Корректность написания названия города",
+        "uid" : "4b317dcf70989b37",
+        "parentUid" : "572c3a7a8e11c72edb67a2144a50e6fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511630056,
+          "stop" : 1683511630156,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "572c3a7a8e11c72edb67a2144a50e6fe"
+    }, {
+      "name" : "Element should have match attribute class~/.*button_view_extra.*/ {By.xpath: //*[text()='Купить']/../..}\r\nElement: '<button class=\"button button_size_m button_hovered button_theme_alfa-on-white\" role=\"button\" type=\"button\">Купить</button>'\r\nActual value: class~/button button_size_m button_hovered button_theme_alfa-on-white/\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511634286.1.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511634286.1.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "shouldHaveRedColorInPaymentIfSelected()",
+        "uid" : "6776fef7cdd0cb17",
+        "parentUid" : "2dd54eff3b0364a0d9816c48ac438fda",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511630159,
+          "stop" : 1683511634488,
+          "duration" : 4329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2dd54eff3b0364a0d9816c48ac438fda"
+    }, {
+      "name" : "expected: <AQA: Заявка на карту> but was: <Путешествие дня>",
+      "children" : [ {
+        "name" : "Заголовок страницы соответствуют содержанию",
+        "uid" : "154c24eb28d00d99",
+        "parentUid" : "ddae0d5d8af4d5d10c4a7ebc351398bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511634492,
+          "stop" : 1683511634588,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddae0d5d8af4d5d10c4a7ebc351398bf"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511654797.2.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511654797.2.html\r\nTimeout: 11 s.",
+      "children" : [ {
+        "name" : "Оплата в кредит запрещенной картой, отображается сообщение об отказе банком",
+        "uid" : "340e65685ad0eb50",
+        "parentUid" : "8fa24266a74007dbbfaf2c4a0bf6a9c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511643096,
+          "stop" : 1683511655002,
+          "duration" : 11906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8fa24266a74007dbbfaf2c4a0bf6a9c5"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='CVC/CVV']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511660830.3.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511660830.3.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата картой с пустым полем CVC, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "23785f59e713a6e",
+        "parentUid" : "ff1332788ba6c88f56352142e792ae9b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511655930,
+          "stop" : 1683511661047,
+          "duration" : 5117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff1332788ba6c88f56352142e792ae9b"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511665914.4.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511665914.4.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата картой, дата действия выше верхней границе (5 лет + 1 месяц), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+        "uid" : "664734a03c79fd4a",
+        "parentUid" : "3e330e6708a0f09180d45159071e9d92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511661058,
+          "stop" : 1683511666142,
+          "duration" : 5084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e330e6708a0f09180d45159071e9d92"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511670987.5.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511670987.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата картой, дата действия выше верхней границе (5 лет + 2 месяца), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+        "uid" : "53987ec078c7d575",
+        "parentUid" : "0591e6cc2ea1cc817c0049788de06d48",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511666149,
+          "stop" : 1683511671218,
+          "duration" : 5069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0591e6cc2ea1cc817c0049788de06d48"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: text \"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511676105.6.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511676105.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата с использованием имени кириллицей, ошибка валидация поля 'Неверный формат'",
+        "uid" : "7d1a10573af40380",
+        "parentUid" : "6742a3eb43529580298ad2a9a8ab1e94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511671224,
+          "stop" : 1683511676371,
+          "duration" : 5147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6742a3eb43529580298ad2a9a8ab1e94"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511687202.7.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511687202.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата картой с нулевым месяцем, ошибка валидации поля месяца. 'Неверно указан срок действия карты'",
+        "uid" : "50c49be56722acb9",
+        "parentUid" : "a9520696036e0fb0af322f66b599e801",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511682412,
+          "stop" : 1683511687636,
+          "duration" : 5224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9520696036e0fb0af322f66b599e801"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511693066.8.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511693066.8.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата картой с пустым полем года, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "1a1be1af64ae6f25",
+        "parentUid" : "e45f5711d3c2e569cc0fc36c6c641855",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511688315,
+          "stop" : 1683511693246,
+          "duration" : 4931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e45f5711d3c2e569cc0fc36c6c641855"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Номер карты']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511697923.9.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511697923.9.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата в кредит с пустым полем номера карты, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "187616535b061567",
+        "parentUid" : "0845496aef81c270cc90be6228110c96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511693250,
+          "stop" : 1683511698119,
+          "duration" : 4869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0845496aef81c270cc90be6228110c96"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511702961.10.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511702961.10.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата картой с пустым полем месяца, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "b65f8e550b81fa74",
+        "parentUid" : "992bbef3ba085dc00c8296decd55848c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511698122,
+          "stop" : 1683511703147,
+          "duration" : 5025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "992bbef3ba085dc00c8296decd55848c"
+    }, {
+      "name" : "expected: <9a46a362-aa6b-42c9-818e-887b919c030d> but was: <null>",
+      "children" : [ {
+        "name" : "Оплата в кредит, в в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)",
+        "uid" : "b1e8817d1525cd75",
+        "parentUid" : "df0ed128986312b70b7c289d50a26ec4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683511705619,
+          "stop" : 1683511705729,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df0ed128986312b70b7c289d50a26ec4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

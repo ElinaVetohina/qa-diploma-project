@@ -40,3 +40,26 @@
 Симулятор запускается командой `npm start` на порту 9999. Он позволяет генерировать предопределённые ответы для заданного набора карт. Набор карт представлен в формате JSON в файле [`data.json`](gate-simulator/data.json).
 
 Разработчики сделали один сервис, симулирующий и Payment Gate, и Credit Gate.
+
+## Запуск приложения
+
+* Клонировать репозиторий на локальную машину командой `git clone`
+* Открыть проект в Intellij IDEA
+* для запуска контейнеров с MySql, PostgreSQL и Node.js запустить docker-compose.yml, использовав команду `docker-compose up`, в случае ошибок используем `docker-compose up -d --force-recreat`
+* Запуск под MySQL
+  `java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar`
+* Запуск под PostgreSQL `java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar`
+##  Запуск тестов
+
+* Запуск под MySQL
+  `./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app"`
+* Запуск под PostgreSQL
+  `./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"`
+##  Allure отчёты
+
+* Генерация отчета запускается командой `./gradlew allureReport`
+* Открыть отчет в браузере `./gradlew allureServe`
+
+## Завершение
+* После завершения тестов останавливаем контейнер командой `docker-compose down`
+* Останавливаем сервис сочетанием клавиш `CTRL+C` в терминале.

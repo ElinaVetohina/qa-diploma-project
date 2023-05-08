@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "109e3a6e31cb63619bea789619b77a4d",
+    "name" : "ru.netology.elinavetohina.test.FieldValidationTest",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "e1dd4753b57649e44dd8c2c247fa04ea",
+    "name" : "ru.netology.elinavetohina.test.ContentValidationTest",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "d87701693fea5cd6e62a9b3a2c09fa3d",
+    "name" : "ru.netology.elinavetohina.test.SqlApiTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "2d461583c48a6ce3aedad7c0a6928ba3",
+    "name" : "ru.netology.elinavetohina.test.CardPaymentTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6752c5bc849e1f96acf50cf2c15fd113",
+    "name" : "ru.netology.elinavetohina.test.CreditPaymentTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

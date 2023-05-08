@@ -1,5 +1,12 @@
 .gradle
-build/
+build/allure
+build/allure-results
+build/classes
+build/downloads
+build/generated
+build/lombok
+build/test-results
+build/tmp
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/

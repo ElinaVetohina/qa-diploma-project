@@ -1,0 +1,103 @@
+{
+  "uid" : "8c36a08b6ec1e40b",
+  "name" : "Оплата разрешённой картой, статус в базе данных 'APPROVED'",
+  "fullName" : "ru.netology.elinavetohina.test.SqlApiTest.shouldSuccessStatusIfPaymentByApprovedCard",
+  "historyId" : "54308e62401f09cb912e4d5eb3e6b798",
+  "time" : {
+    "start" : 1683511705546,
+    "stop" : 1683511705616,
+    "duration" : 70
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1683511703183,
+      "stop" : 1683511703183,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1683511706054,
+      "stop" : 1683511706101,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.elinavetohina.test.SqlApiTest]/[method:shouldSuccessStatusIfPaymentByApprovedCard()]"
+  }, {
+    "name" : "story",
+    "value" : "Статус опеоации в БД"
+  }, {
+    "name" : "epic",
+    "value" : "Оплата картой"
+  }, {
+    "name" : "feature",
+    "value" : "Оплата разрешенной картой"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KP649TH"
+  }, {
+    "name" : "thread",
+    "value" : "33332@DESKTOP-KP649TH.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.elinavetohina.test.SqlApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.elinavetohina.test.SqlApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldSuccessStatusIfPaymentByApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.elinavetohina.test.SqlApiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c36a08b6ec1e40b.json",
+  "parameterValues" : [ ]
+}
