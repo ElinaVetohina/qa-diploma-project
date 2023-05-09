@@ -1,0 +1,279 @@
+{
+  "uid" : "cd3b8cf7764fb8a8",
+  "name" : "При оплате картой с указанием даты действия меньше текущей границы - заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+  "fullName" : "ru.netology.elinavetohina.test.FieldValidationTest.shouldValidationErrorIfCardValidityDateLessCurrent",
+  "historyId" : "7d9c9d53fc6789e2ecabe93c424aefa5",
+  "time" : {
+    "start" : 1683650810330,
+    "stop" : 1683650811101,
+    "duration" : 771
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1683650810328,
+      "stop" : 1683650810328,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1683650810330,
+        "stop" : 1683650810360,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //h2[contains(class,heading)]\") should be(visible)",
+      "time" : {
+        "start" : 1683650810361,
+        "stop" : 1683650810393,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1683650810394,
+        "stop" : 1683650810462,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //h3[text()='Оплата по карте']\") should be(visible)",
+      "time" : {
+        "start" : 1683650810463,
+        "stop" : 1683650810486,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Номер карты']/..//input\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1683650810487,
+        "stop" : 1683650810619,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Месяц']/..//input\") set value(04)",
+      "time" : {
+        "start" : 1683650810620,
+        "stop" : 1683650810708,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/..//input\") set value(23)",
+      "time" : {
+        "start" : 1683650810708,
+        "stop" : 1683650810803,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Владелец']/..//input\") set value(Dusty Lemke)",
+      "time" : {
+        "start" : 1683650810804,
+        "stop" : 1683650810923,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='CVC/CVV']/..//input\") set value(875)",
+      "time" : {
+        "start" : 1683650810923,
+        "stop" : 1683650811021,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Продолжить']\") click()",
+      "time" : {
+        "start" : 1683650811021,
+        "stop" : 1683650811077,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']\") should have(text \"Неверно указан срок действия карты\")",
+      "time" : {
+        "start" : 1683650811077,
+        "stop" : 1683650811100,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1683650865174,
+      "stop" : 1683650865207,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.elinavetohina.test.FieldValidationTest]/[method:shouldValidationErrorIfCardValidityDateLessCurrent()]"
+  }, {
+    "name" : "feature",
+    "value" : "Поле месяца"
+  }, {
+    "name" : "story",
+    "value" : "Ниже нижней  границы срока действия"
+  }, {
+    "name" : "epic",
+    "value" : "Валидация полей"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KP649TH"
+  }, {
+    "name" : "thread",
+    "value" : "18196@DESKTOP-KP649TH.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.elinavetohina.test.FieldValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.elinavetohina.test.FieldValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldValidationErrorIfCardValidityDateLessCurrent"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.elinavetohina.test.FieldValidationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd3b8cf7764fb8a8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,312 @@
+{
+  "uid" : "467b58a0d59f5de3",
+  "name" : "При оплата картой с указанием даты действия в верхней границе (текущая дата + 5 лет) - отображается сообщение об одобрении банком",
+  "fullName" : "ru.netology.elinavetohina.test.FieldValidationTest.shouldErrorMessageIfDateInUpperBorder",
+  "historyId" : "e8843c12a273eb733cc9dd62447f3759",
+  "time" : {
+    "start" : 1683650831331,
+    "stop" : 1683650841199,
+    "duration" : 9868
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1683650810328,
+      "stop" : 1683650810328,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1683650831332,
+        "stop" : 1683650831358,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //h2[contains(class,heading)]\") should be(visible)",
+      "time" : {
+        "start" : 1683650831359,
+        "stop" : 1683650831376,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1683650831376,
+        "stop" : 1683650831427,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //h3[text()='Оплата по карте']\") should be(visible)",
+      "time" : {
+        "start" : 1683650831427,
+        "stop" : 1683650831444,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Номер карты']/..//input\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1683650831445,
+        "stop" : 1683650831579,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Месяц']/..//input\") set value(05)",
+      "time" : {
+        "start" : 1683650831579,
+        "stop" : 1683650831679,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/..//input\") set value(28)",
+      "time" : {
+        "start" : 1683650831680,
+        "stop" : 1683650831777,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Владелец']/..//input\") set value(Jere Pollich)",
+      "time" : {
+        "start" : 1683650831777,
+        "stop" : 1683650831900,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='CVC/CVV']/..//input\") set value(422)",
+      "time" : {
+        "start" : 1683650831900,
+        "stop" : 1683650831996,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Продолжить']\") click()",
+      "time" : {
+        "start" : 1683650831996,
+        "stop" : 1683650832044,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\".notification_status_ok\") should be([text \"Операция одобрена Банком.\", 11 s.])",
+      "time" : {
+        "start" : 1683650832044,
+        "stop" : 1683650840867,
+        "duration" : 8823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\".notification button\") click()",
+      "time" : {
+        "start" : 1683650840867,
+        "stop" : 1683650841180,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\".notification_status_error\") should be(not visible)",
+      "time" : {
+        "start" : 1683650841180,
+        "stop" : 1683650841199,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1683650865174,
+      "stop" : 1683650865207,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.elinavetohina.test.FieldValidationTest]/[method:shouldErrorMessageIfDateInUpperBorder()]"
+  }, {
+    "name" : "story",
+    "value" : "Верхняя граница срока действия"
+  }, {
+    "name" : "feature",
+    "value" : "Поле Месяц"
+  }, {
+    "name" : "feature",
+    "value" : "Поле Год"
+  }, {
+    "name" : "epic",
+    "value" : "Валидация полей"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KP649TH"
+  }, {
+    "name" : "thread",
+    "value" : "18196@DESKTOP-KP649TH.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.elinavetohina.test.FieldValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.elinavetohina.test.FieldValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldErrorMessageIfDateInUpperBorder"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.elinavetohina.test.FieldValidationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "467b58a0d59f5de3.json",
+  "parameterValues" : [ ]
+}
