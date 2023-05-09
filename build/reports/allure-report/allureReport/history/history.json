@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0a4bbe2d905ab40",
+      "uid" : "c8104476d60db19a",
       "status" : "passed",
       "time" : {
-        "start" : 1683511705733,
-        "stop" : 1683511705795,
-        "duration" : 62
+        "start" : 1683650867403,
+        "stop" : 1683650867446,
+        "duration" : 43
       }
     } ]
   },
   "a42a85682008f43044b8422d84386bb0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4952a5b3fe786f95",
-      "status" : "passed",
+      "uid" : "badc1139e9780662",
+      "status" : "failed",
+      "statusDetails" : "Element should be not visible {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: visible\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650788787.3.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650788787.3.html\r\nTimeout: 4 s.",
       "time" : {
-        "start" : 1683511634749,
-        "stop" : 1683511640004,
-        "duration" : 5255
+        "start" : 1683650776725,
+        "stop" : 1683650789016,
+        "duration" : 12291
       }
     } ]
   },
@@ -47,13 +48,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b317dcf70989b37",
+      "uid" : "a08de4b15976d8ee",
       "status" : "failed",
       "statusDetails" : "expected: <Марракеш> but was: <Марракэш>",
       "time" : {
-        "start" : 1683511630056,
-        "stop" : 1683511630156,
-        "duration" : 100
+        "start" : 1683650772044,
+        "stop" : 1683650772128,
+        "duration" : 84
       }
     } ]
   },
@@ -67,13 +68,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "23785f59e713a6e",
+      "uid" : "7ab1a31c0f75bb5b",
       "status" : "failed",
-      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='CVC/CVV']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511660830.3.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511660830.3.html\r\nTimeout: 4 s.",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='CVC/CVV']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650815780.5.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650815780.5.html\r\nTimeout: 4 s.",
       "time" : {
-        "start" : 1683511655930,
-        "stop" : 1683511661047,
-        "duration" : 5117
+        "start" : 1683650811105,
+        "stop" : 1683650815960,
+        "duration" : 4855
       }
     } ]
   },
@@ -87,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a6c4240c49c9ae27",
+      "uid" : "467b58a0d59f5de3",
       "status" : "passed",
       "time" : {
-        "start" : 1683511676377,
-        "stop" : 1683511679239,
-        "duration" : 2862
+        "start" : 1683650831331,
+        "stop" : 1683650841199,
+        "duration" : 9868
       }
     } ]
   },
@@ -106,13 +107,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6776fef7cdd0cb17",
+      "uid" : "6f7896bac550a994",
       "status" : "failed",
-      "statusDetails" : "Element should have match attribute class~/.*button_view_extra.*/ {By.xpath: //*[text()='Купить']/../..}\r\nElement: '<button class=\"button button_size_m button_hovered button_theme_alfa-on-white\" role=\"button\" type=\"button\">Купить</button>'\r\nActual value: class~/button button_size_m button_hovered button_theme_alfa-on-white/\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511634286.1.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511634286.1.html\r\nTimeout: 4 s.",
+      "statusDetails" : "Element should have match attribute class~/.*button_view_extra.*/ {By.xpath: //*[text()='Купить']/../..}\r\nElement: '<button class=\"button button_size_m button_hovered button_theme_alfa-on-white\" role=\"button\" type=\"button\">Купить</button>'\r\nActual value: class~/button button_size_m button_hovered button_theme_alfa-on-white/\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650776275.2.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650776275.2.html\r\nTimeout: 4 s.",
       "time" : {
-        "start" : 1683511630159,
-        "stop" : 1683511634488,
-        "duration" : 4329
+        "start" : 1683650772133,
+        "stop" : 1683650776481,
+        "duration" : 4348
       }
     } ]
   },
@@ -126,12 +127,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "443691801253b0a8",
+      "uid" : "b183070e7bd89827",
       "status" : "passed",
       "time" : {
-        "start" : 1683511640009,
-        "stop" : 1683511643092,
-        "duration" : 3083
+        "start" : 1683650789021,
+        "stop" : 1683650798312,
+        "duration" : 9291
       }
     } ]
   },
@@ -145,12 +146,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e4d2df63b85f791",
+      "uid" : "a09edc71864f7dd9",
       "status" : "passed",
       "time" : {
-        "start" : 1683511705477,
-        "stop" : 1683511705542,
-        "duration" : 65
+        "start" : 1683650867245,
+        "stop" : 1683650867285,
+        "duration" : 40
       }
     } ]
   },
@@ -164,12 +165,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94596cba8d2c0b29",
+      "uid" : "dc4a159dabf63223",
       "status" : "passed",
       "time" : {
-        "start" : 1683511705881,
-        "stop" : 1683511705955,
-        "duration" : 74
+        "start" : 1683650867483,
+        "stop" : 1683650867531,
+        "duration" : 48
       }
     } ]
   },
@@ -183,12 +184,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "55c6be616795a06f",
+      "uid" : "7fa7e4fbba21164f",
       "status" : "passed",
       "time" : {
-        "start" : 1683511703185,
-        "stop" : 1683511705474,
-        "duration" : 2289
+        "start" : 1683650865211,
+        "stop" : 1683650867242,
+        "duration" : 2031
       }
     } ]
   },
@@ -202,13 +203,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1e8817d1525cd75",
+      "uid" : "555cb9eb40801ad6",
       "status" : "failed",
-      "statusDetails" : "expected: <9a46a362-aa6b-42c9-818e-887b919c030d> but was: <null>",
+      "statusDetails" : "expected: <c32f21b9-4ca2-44b4-a580-d0b8b0c463fb> but was: <null>",
       "time" : {
-        "start" : 1683511705619,
-        "stop" : 1683511705729,
-        "duration" : 110
+        "start" : 1683650867346,
+        "stop" : 1683650867399,
+        "duration" : 53
       }
     } ]
   },
@@ -222,50 +223,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8aeba25d0a12c33",
+      "uid" : "2bbeeb81b8d55d6c",
       "status" : "passed",
       "time" : {
-        "start" : 1683511705799,
-        "stop" : 1683511705879,
-        "duration" : 80
-      }
-    } ]
-  },
-  "fe94b3ff6ae3c60582735b51e74f1baf" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1c0a85b9eef095d4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1683511679245,
-        "stop" : 1683511682408,
-        "duration" : 3163
-      }
-    } ]
-  },
-  "24cfb81e29be4329a8aa64bb9e2606b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "57356782ffd493ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1683511608026,
-        "stop" : 1683511617593,
-        "duration" : 9567
+        "start" : 1683650867449,
+        "stop" : 1683650867480,
+        "duration" : 31
       }
     } ]
   },
@@ -279,32 +242,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a4b4b442fa5c631a",
+      "uid" : "f72bb2a21bdc6fda",
       "status" : "passed",
       "time" : {
-        "start" : 1683511687642,
-        "stop" : 1683511688311,
-        "duration" : 669
+        "start" : 1683650849866,
+        "stop" : 1683650850538,
+        "duration" : 672
       }
     } ]
   },
-  "117543705a503e78614df24988a200b7" : {
+  "24cfb81e29be4329a8aa64bb9e2606b2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a1be1af64ae6f25",
-      "status" : "failed",
-      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511693066.8.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511693066.8.html\r\nTimeout: 4 s.",
+      "uid" : "8f1bf417a41aabd2",
+      "status" : "passed",
       "time" : {
-        "start" : 1683511688315,
-        "stop" : 1683511693246,
-        "duration" : 4931
+        "start" : 1683650752034,
+        "stop" : 1683650759710,
+        "duration" : 7676
+      }
+    } ]
+  },
+  "fe94b3ff6ae3c60582735b51e74f1baf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d00d6947e82c68d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683650841206,
+        "stop" : 1683650844786,
+        "duration" : 3580
       }
     } ]
   },
@@ -318,13 +299,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b65f8e550b81fa74",
+      "uid" : "2de6bf0a313478a2",
       "status" : "failed",
-      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511702961.10.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511702961.10.html\r\nTimeout: 4 s.",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650864975.12.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650864975.12.html\r\nTimeout: 4 s.",
       "time" : {
-        "start" : 1683511698122,
-        "stop" : 1683511703147,
-        "duration" : 5025
+        "start" : 1683650860296,
+        "stop" : 1683650865171,
+        "duration" : 4875
+      }
+    } ]
+  },
+  "117543705a503e78614df24988a200b7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f4567ae66de9099",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650855239.10.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650855239.10.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1683650850542,
+        "stop" : 1683650855444,
+        "duration" : 4902
       }
     } ]
   },
@@ -338,13 +339,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "53987ec078c7d575",
+      "uid" : "75fdb3ed4f0de774",
       "status" : "failed",
-      "statusDetails" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511670987.5.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511670987.5.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650825933.7.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650825933.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
       "time" : {
-        "start" : 1683511666149,
-        "stop" : 1683511671218,
-        "duration" : 5069
+        "start" : 1683650821096,
+        "stop" : 1683650826173,
+        "duration" : 5077
       }
     } ]
   },
@@ -358,32 +359,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "154c24eb28d00d99",
+      "uid" : "723def430f107b16",
       "status" : "failed",
       "statusDetails" : "expected: <AQA: Заявка на карту> but was: <Путешествие дня>",
       "time" : {
-        "start" : 1683511634492,
-        "stop" : 1683511634588,
-        "duration" : 96
+        "start" : 1683650776484,
+        "stop" : 1683650776563,
+        "duration" : 79
       }
     } ]
   },
   "f42ba18776c2787d1a33be54e0ba4dc5" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b6c0d73a0d9167b",
-      "status" : "passed",
+      "uid" : "f2457475655076f9",
+      "status" : "failed",
+      "statusDetails" : "Element should be not visible {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: visible\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650751684.0.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650751684.0.html\r\nTimeout: 4 s.",
       "time" : {
-        "start" : 1683511596891,
-        "stop" : 1683511607939,
-        "duration" : 11048
+        "start" : 1683650736837,
+        "stop" : 1683650751942,
+        "duration" : 15105
       }
     } ]
   },
@@ -397,12 +399,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e6082e1290259ae",
+      "uid" : "85dad9e04e9ac4a2",
       "status" : "passed",
       "time" : {
-        "start" : 1683511705958,
-        "stop" : 1683511706052,
-        "duration" : 94
+        "start" : 1683650867535,
+        "stop" : 1683650867586,
+        "duration" : 51
       }
     } ]
   },
@@ -416,12 +418,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d1a10573af40380",
+      "uid" : "691958fe1254e553",
       "status" : "failed",
-      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: text \"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511676105.6.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511676105.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: text \"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650831050.8.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650831050.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
       "time" : {
-        "start" : 1683511671224,
-        "stop" : 1683511676371,
+        "start" : 1683650826179,
+        "stop" : 1683650831326,
         "duration" : 5147
       }
     } ]
@@ -436,12 +438,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c36a08b6ec1e40b",
+      "uid" : "ca75cf717defe470",
       "status" : "passed",
       "time" : {
-        "start" : 1683511705546,
-        "stop" : 1683511705616,
-        "duration" : 70
+        "start" : 1683650867288,
+        "stop" : 1683650867342,
+        "duration" : 54
       }
     } ]
   },
@@ -455,12 +457,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7bb9f943d1907463",
+      "uid" : "e36096f240def254",
       "status" : "passed",
       "time" : {
-        "start" : 1683511634591,
-        "stop" : 1683511634733,
-        "duration" : 142
+        "start" : 1683650776567,
+        "stop" : 1683650776710,
+        "duration" : 143
       }
     } ]
   },
@@ -474,13 +476,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d3efd47700df6710",
+      "uid" : "233e3f93bf7dc19b",
       "status" : "failed",
-      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511629390.0.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511629390.0.html\r\nTimeout: 11 s.",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650771421.1.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650771421.1.html\r\nTimeout: 11 s.",
       "time" : {
-        "start" : 1683511617601,
-        "stop" : 1683511629603,
-        "duration" : 12002
+        "start" : 1683650759718,
+        "stop" : 1683650771601,
+        "duration" : 11883
       }
     } ]
   },
@@ -494,13 +496,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "664734a03c79fd4a",
+      "uid" : "1ac37221e8db782c",
       "status" : "failed",
-      "statusDetails" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511665914.4.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511665914.4.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650820823.6.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650820823.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
       "time" : {
-        "start" : 1683511661058,
-        "stop" : 1683511666142,
-        "duration" : 5084
+        "start" : 1683650815965,
+        "stop" : 1683650821090,
+        "duration" : 5125
       }
     } ]
   },
@@ -514,13 +516,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "340e65685ad0eb50",
+      "uid" : "c686956bc754146a",
       "status" : "failed",
-      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511654797.2.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511654797.2.html\r\nTimeout: 11 s.",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650810070.4.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650810070.4.html\r\nTimeout: 11 s.",
       "time" : {
-        "start" : 1683511643096,
-        "stop" : 1683511655002,
-        "duration" : 11906
+        "start" : 1683650798316,
+        "stop" : 1683650810298,
+        "duration" : 11982
       }
     } ]
   },
@@ -534,33 +536,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "50c49be56722acb9",
+      "uid" : "3370692e5651bf4",
       "status" : "failed",
-      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511687202.7.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511687202.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']//..//*[@class='input__sub']\"}",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650849621.9.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650849621.9.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']//..//*[@class='input__sub']\"}",
       "time" : {
-        "start" : 1683511682412,
-        "stop" : 1683511687636,
-        "duration" : 5224
-      }
-    } ]
-  },
-  "fae61ee21dc09a6453051c4709d24c37" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "187616535b061567",
-      "status" : "failed",
-      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Номер карты']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511697923.9.png\r\nPage source: file:/C:/Users/DEViAS/OneDrive/Рабочий%20стол/Diploma/build/reports/tests/1683511697923.9.html\r\nTimeout: 4 s.",
-      "time" : {
-        "start" : 1683511693250,
-        "stop" : 1683511698119,
-        "duration" : 4869
+        "start" : 1683650844790,
+        "stop" : 1683650849862,
+        "duration" : 5072
       }
     } ]
   },
@@ -574,12 +556,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ec9b1f1d65d0e6c5",
+      "uid" : "cd3b8cf7764fb8a8",
       "status" : "passed",
       "time" : {
-        "start" : 1683511655044,
-        "stop" : 1683511655927,
-        "duration" : 883
+        "start" : 1683650810330,
+        "stop" : 1683650811101,
+        "duration" : 771
+      }
+    } ]
+  },
+  "fae61ee21dc09a6453051c4709d24c37" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "677e10cec0508d97",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Номер карты']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650860117.11.png\r\nPage source: file:/C:/Users/DEViAS/Diploma/build/reports/tests/1683650860117.11.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1683650855448,
+        "stop" : 1683650860292,
+        "duration" : 4844
       }
     } ]
   }

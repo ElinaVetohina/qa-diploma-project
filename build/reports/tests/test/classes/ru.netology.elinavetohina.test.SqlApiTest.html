@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.857s</div>
+<div class="counter">2.363s</div>
 <p>duration</p>
 </div>
 </td>
@@ -74,9 +74,9 @@
 <h2>Failed tests</h2>
 <div class="test">
 <a name="ShouldFieldValueCreditIdWrittenInFieldCreditId()"></a>
-<h3 class="failures">Оплата в кредит, в в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)</h3>
+<h3 class="failures">При оплате в кредит, в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)</h3>
 <span class="code">
-<pre>org.opentest4j.AssertionFailedError: expected: &lt;9a46a362-aa6b-42c9-818e-887b919c030d&gt; but was: &lt;null&gt;
+<pre>org.opentest4j.AssertionFailedError: expected: &lt;c32f21b9-4ca2-44b4-a580-d0b8b0c463fb&gt; but was: &lt;null&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
 	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
@@ -188,51 +188,51 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">Оплата в кредит, в в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)</td>
+<td class="failures">При оплате в кредит, в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)</td>
 <td class="failures">ShouldFieldValueCreditIdWrittenInFieldCreditId()</td>
-<td class="failures">0.113s</td>
+<td class="failures">0.055s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">Кредит по карте отсутствующей в системе, данные не заносятся в БД</td>
+<td class="success">При оплате в кредит по карте отсутствующей в системе, данные не заносятся в БД</td>
 <td class="success">ShouldNotAmountRowsWhenPaymentByCreditFiledCard()</td>
-<td class="success">0.082s</td>
+<td class="success">0.032s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Оплата картой отсутствующей в системе, Данные не заносятся в БД</td>
+<td class="success">При оплате картой отсутствующей в системе, Данные не заносятся в БД</td>
 <td class="success">ShouldNotAmountRowsWhenPaymentFiledCard()</td>
-<td class="success">0.066s</td>
+<td class="success">0.041s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Оплата картой , в таблицу order_entity заносится ID транзакции в поле 'payment_id'</td>
+<td class="success">При оплате картой, в таблицу order_entity заносится ID транзакции в поле 'payment_id'</td>
 <td class="success">ShouldTransactionIdWrittenInPaymentIdField()</td>
-<td class="success">0.075s</td>
+<td class="success">0.049s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Оплата в кредит разрешенной картой, статус в базе данных APPROVED</td>
+<td class="success">При оплате в кредит разрешенной картой, статус в базе данных APPROVED</td>
 <td class="success">shouldFieldStatusIfPaymentByCreditApprovedCard()</td>
-<td class="success">0.095s</td>
+<td class="success">0.054s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Оплата в кредит запрещенной картой, статус в базе данных DECLINED</td>
+<td class="success">При оплате в кредит запрещенной картой, статус в базе данных DECLINED</td>
 <td class="success">shouldFieldStatusIfPaymentByCreditDeclinedCard()</td>
-<td class="success">0.064s</td>
+<td class="success">0.044s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Оплата запрещенной картой, статус в базе данных 'DECLINED'</td>
+<td class="success">При оплате запрещенной картой, статус в базе данных 'DECLINED'</td>
 <td class="success">shouldFiledStatusIfPaymentByDeclinedCard()</td>
-<td class="success">2.290s</td>
+<td class="success">2.032s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Оплата разрешённой картой, статус в базе данных 'APPROVED'</td>
+<td class="success">При оплате разрешённой картой, статус в базе данных 'APPROVED'</td>
 <td class="success">shouldSuccessStatusIfPaymentByApprovedCard()</td>
-<td class="success">0.072s</td>
+<td class="success">0.056s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -256,8 +256,8 @@ Body:
     &quot;number&quot;: &quot;4444 4444 4444 4442&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Laquanda Hilll&quot;,
-    &quot;cvc&quot;: &quot;429&quot;
+    &quot;holder&quot;: &quot;Man Kertzmann&quot;,
+    &quot;cvc&quot;: &quot;898&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/pay
@@ -272,11 +272,11 @@ Cookies:		&lt;none&gt;
 Multiparts:		&lt;none&gt;
 Body:
 {
-    &quot;number&quot;: &quot;5496150377274954&quot;,
+    &quot;number&quot;: &quot;5180210333404104&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Raisa Bednar&quot;,
-    &quot;cvc&quot;: &quot;873&quot;
+    &quot;holder&quot;: &quot;Norman Durgan&quot;,
+    &quot;cvc&quot;: &quot;957&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/pay
@@ -294,8 +294,8 @@ Body:
     &quot;number&quot;: &quot;4444 4444 4444 4441&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Isabella Ortiz&quot;,
-    &quot;cvc&quot;: &quot;999&quot;
+    &quot;holder&quot;: &quot;Arron Boyer&quot;,
+    &quot;cvc&quot;: &quot;423&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/credit
@@ -313,8 +313,8 @@ Body:
     &quot;number&quot;: &quot;4444 4444 4444 4441&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Francis Grimes&quot;,
-    &quot;cvc&quot;: &quot;129&quot;
+    &quot;holder&quot;: &quot;Soila Hettinger&quot;,
+    &quot;cvc&quot;: &quot;120&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/credit
@@ -332,8 +332,8 @@ Body:
     &quot;number&quot;: &quot;4444 4444 4444 4442&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Shirlee Rempel&quot;,
-    &quot;cvc&quot;: &quot;540&quot;
+    &quot;holder&quot;: &quot;Milan Davis&quot;,
+    &quot;cvc&quot;: &quot;987&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/credit
@@ -348,11 +348,11 @@ Cookies:		&lt;none&gt;
 Multiparts:		&lt;none&gt;
 Body:
 {
-    &quot;number&quot;: &quot;1809789595585827&quot;,
+    &quot;number&quot;: &quot;6566900950809895&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Brett Mayert&quot;,
-    &quot;cvc&quot;: &quot;980&quot;
+    &quot;holder&quot;: &quot;Quinton Padberg&quot;,
+    &quot;cvc&quot;: &quot;803&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/pay
@@ -370,8 +370,8 @@ Body:
     &quot;number&quot;: &quot;4444 4444 4444 4441&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Sandy Cassin&quot;,
-    &quot;cvc&quot;: &quot;459&quot;
+    &quot;holder&quot;: &quot;Wilford Leffler&quot;,
+    &quot;cvc&quot;: &quot;262&quot;
 }
 Request method:	POST
 Request URI:	http://localhost:8080/api/v1/credit
@@ -389,8 +389,8 @@ Body:
     &quot;number&quot;: &quot;4444 4444 4444 4441&quot;,
     &quot;month&quot;: &quot;05&quot;,
     &quot;year&quot;: &quot;24&quot;,
-    &quot;holder&quot;: &quot;Jeffery Durgan&quot;,
-    &quot;cvc&quot;: &quot;464&quot;
+    &quot;holder&quot;: &quot;Bernardine Blick&quot;,
+    &quot;cvc&quot;: &quot;384&quot;
 }
 </pre>
 </span>
@@ -403,7 +403,7 @@ Body:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 8 мая 2023 г., 5:08:26</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 9 мая 2023 г., 19:47:48</p>
 </div>
 </div>
 </body>

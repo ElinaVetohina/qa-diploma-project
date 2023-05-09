@@ -26,7 +26,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">14</div>
+<div class="counter">16</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m48.57s</div>
+<div class="counter">2m10.18s</div>
 <p>duration</p>
 </div>
 </td>
@@ -48,7 +48,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">53%</div>
+<div class="percent">46%</div>
 <p>successful</p>
 </div>
 </td>
@@ -72,7 +72,11 @@
 <ul class="linkList">
 <li>
 <a href="classes/ru.netology.elinavetohina.test.CardPaymentTest.html">CardPaymentTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.CardPaymentTest.html#shouldErrorMessageIfPaymentOfDeclinedCard()">Покупка запрещенной картой. Отображается сообщение об отказе банком</a>
+<a href="classes/ru.netology.elinavetohina.test.CardPaymentTest.html#ShouldErrorMsg()">При покупке картой отсутствующей в системе отображается сообщение об отказе банком</a>
+</li>
+<li>
+<a href="classes/ru.netology.elinavetohina.test.CardPaymentTest.html">CardPaymentTest</a>.
+<a href="classes/ru.netology.elinavetohina.test.CardPaymentTest.html#shouldErrorMessageIfPaymentOfDeclinedCard()">При покупке запрещенной картой отображается сообщение об отказе банком</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.ContentValidationTest.html">ContentValidationTest</a>.
@@ -88,43 +92,47 @@
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.CreditPaymentTest.html">CreditPaymentTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.CreditPaymentTest.html#ShouldErrorMessageIfPaymentByCreditDeclinedCard()">Оплата в кредит запрещенной картой, отображается сообщение об отказе банком</a>
+<a href="classes/ru.netology.elinavetohina.test.CreditPaymentTest.html#ShouldErrorMessageIfPaymentByCreditDeclinedCard()">При оплате в кредит запрещенной картой отображается сообщение об отказе банком</a>
+</li>
+<li>
+<a href="classes/ru.netology.elinavetohina.test.CreditPaymentTest.html">CreditPaymentTest</a>.
+<a href="classes/ru.netology.elinavetohina.test.CreditPaymentTest.html#ShouldErrorMsg()">При оплате в кредит картой отсутствующей в системе отображается сообщение об отказе банком</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#ShouldValidationErrorIfHolderNameIsCyrillic()">Оплата с использованием имени кириллицей, ошибка валидация поля 'Неверный формат'</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#ShouldValidationErrorIfHolderNameIsCyrillic()">При оплата с использованием имени кириллицей, ошибка валидация поля 'Неверный формат'</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorCardNumberFieldIfValueIsEmpty()">Оплата в кредит с пустым полем номера карты, ошибка валидации поля, Поле обязательно для заполнения</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorCardNumberFieldIfValueIsEmpty()">При оплате в кредит с пустым полем номера карты - ошибка валидации поля, Поле обязательно для заполнения</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorCardValidityDateFieldPlus61Month()">Оплата картой, дата действия выше верхней границе (5 лет + 1 месяц), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorCardValidityDateFieldPlus61Month()">При оплате картой с указанием даты действия выше верхней границы (5 лет + 1 месяц) - заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorCardValidityDateFieldPlus62Months()">Оплата картой, дата действия выше верхней границе (5 лет + 2 месяца), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorCardValidityDateFieldPlus62Months()">При оплате картой и указании даты действия выше верхней границы (5 лет + 2 месяца) заявка не отправляется - ошибка валидации поля 'Неверно указан срок действия карты'</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorErrorIfValueOfTheMonthsIsZero()">Оплата картой с нулевым месяцем, ошибка валидации поля месяца. 'Неверно указан срок действия карты'</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorErrorIfValueOfTheMonthsIsZero()">При оплате картой с нулевым месяцем - ошибка валидации поля месяца. 'Неверно указан срок действия карты'</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorIfCvvFieldIsEmpty()">Оплата картой с пустым полем CVC, ошибка валидации поля, Поле обязательно для заполнения</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorIfCvvFieldIsEmpty()">При оплате картой с пустым полем CVC, ошибка валидации поля, Поле обязательно для заполнения</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorIfYearFieldIsEmpty()">Оплата картой с пустым полем года, ошибка валидации поля, Поле обязательно для заполнения</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorIfYearFieldIsEmpty()">При оплате картой с пустым полем года, ошибка валидации поля, Поле обязательно для заполнения</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html">FieldValidationTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorMonthFieldErrorIfValueIsEmpty()">Оплата картой с пустым полем месяца, ошибка валидации поля, Поле обязательно для заполнения</a>
+<a href="classes/ru.netology.elinavetohina.test.FieldValidationTest.html#shouldValidationErrorMonthFieldErrorIfValueIsEmpty()">При оплате картой с пустым полем месяца, ошибка валидации поля, 'Поле обязательно для заполнения'</a>
 </li>
 <li>
 <a href="classes/ru.netology.elinavetohina.test.SqlApiTest.html">SqlApiTest</a>.
-<a href="classes/ru.netology.elinavetohina.test.SqlApiTest.html#ShouldFieldValueCreditIdWrittenInFieldCreditId()">Оплата в кредит, в в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)</a>
+<a href="classes/ru.netology.elinavetohina.test.SqlApiTest.html#ShouldFieldValueCreditIdWrittenInFieldCreditId()">При оплате в кредит, в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)</a>
 </li>
 </ul>
 </div>
@@ -147,10 +155,10 @@
 <a href="packages/ru.netology.elinavetohina.test.html">ru.netology.elinavetohina.test</a>
 </td>
 <td>30</td>
-<td>14</td>
+<td>16</td>
 <td>0</td>
-<td>1m48.57s</td>
-<td class="failures">53%</td>
+<td>2m10.18s</td>
+<td class="failures">46%</td>
 </tr>
 </tbody>
 </table>
@@ -174,10 +182,10 @@
 <a href="classes/ru.netology.elinavetohina.test.CardPaymentTest.html">ru.netology.elinavetohina.test.CardPaymentTest</a>
 </td>
 <td>3</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>32.709s</td>
-<td class="failures">66%</td>
+<td>34.760s</td>
+<td class="failures">33%</td>
 </tr>
 <tr>
 <td class="failures">
@@ -186,7 +194,7 @@
 <td>4</td>
 <td>3</td>
 <td>0</td>
-<td>4.674s</td>
+<td>4.660s</td>
 <td class="failures">25%</td>
 </tr>
 <tr>
@@ -194,10 +202,10 @@
 <a href="classes/ru.netology.elinavetohina.test.CreditPaymentTest.html">ru.netology.elinavetohina.test.CreditPaymentTest</a>
 </td>
 <td>3</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>20.250s</td>
-<td class="failures">66%</td>
+<td>33.571s</td>
+<td class="failures">33%</td>
 </tr>
 <tr>
 <td class="failures">
@@ -206,7 +214,7 @@
 <td>12</td>
 <td>8</td>
 <td>0</td>
-<td>48.082s</td>
+<td>54.822s</td>
 <td class="failures">33%</td>
 </tr>
 <tr>
@@ -216,7 +224,7 @@
 <td>8</td>
 <td>1</td>
 <td>0</td>
-<td>2.857s</td>
+<td>2.363s</td>
 <td class="failures">87%</td>
 </tr>
 </tbody>
@@ -230,7 +238,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 8 мая 2023 г., 5:08:26</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 9 мая 2023 г., 19:47:48</p>
 </div>
 </div>
 </body>

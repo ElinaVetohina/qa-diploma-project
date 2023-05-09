@@ -4,21 +4,21 @@
     "uid" : "aa8006eb9af94fe8716db5b57718041c",
     "name" : "Валидация полей",
     "statistic" : {
-      "failed" : 5,
+      "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 5
+      "total" : 7
     }
   }, {
     "uid" : "2e39434009a74730d5de86f180fcabc9",
     "name" : "Оплата в кредит",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 4
     }
@@ -26,10 +26,10 @@
     "uid" : "83079fb5021fecf1618c277fc354df95",
     "name" : "Оплата картой",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 4
     }
